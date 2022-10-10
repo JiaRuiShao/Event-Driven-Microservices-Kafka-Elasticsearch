@@ -37,3 +37,134 @@ ERROR in ch.qos.logback.core.joran.spi.Interpreter@34:31 - no applicable action 
 2022-10-09 19:59:27 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
 2022-10-09 19:59:27 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
 2022-10-09 19:59:27 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices!
+2022-10-09 20:35:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.16 on Jessie-Dell with PID 15616 (C:\Users\DELL\Dropbox\Java-Backend\Projects\Microservice\Event-Driven-Microservices-Kafka-Elasticsearch\twitter-to-kafka-service\target\classes started by DELL in C:\Users\DELL\Dropbox\Java-Backend\Projects\Microservice\Event-Driven-Microservices-Kafka-Elasticsearch)
+2022-10-09 20:35:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-09 20:35:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.675 seconds (JVM running for 1.649)
+2022-10-09 20:35:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-10-09 20:35:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-10-09 20:35:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices!
+2022-10-09 20:39:21 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.16 on Jessie-Dell with PID 19124 (C:\Users\DELL\Dropbox\Java-Backend\Projects\Microservice\Event-Driven-Microservices-Kafka-Elasticsearch\twitter-to-kafka-service\target\classes started by DELL in C:\Users\DELL\Dropbox\Java-Backend\Projects\Microservice\Event-Driven-Microservices-Kafka-Elasticsearch)
+2022-10-09 20:39:21 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-09 20:39:22 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.691 seconds (JVM running for 1.662)
+2022-10-09 20:39:22 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-10-09 20:39:22 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-10-09 20:39:22 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices!
+2022-10-09 21:21:45 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.16 on Jessie-Dell with PID 24496 (C:\Users\DELL\Dropbox\Java-Backend\Projects\Microservice\Event-Driven-Microservices-Kafka-Elasticsearch\twitter-to-kafka-service\target\classes started by DELL in C:\Users\DELL\Dropbox\Java-Backend\Projects\Microservice\Event-Driven-Microservices-Kafka-Elasticsearch)
+2022-10-09 21:21:45 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-09 21:21:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.874 seconds (JVM running for 2.742)
+2022-10-09 21:21:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-10-09 21:21:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-10-09 21:21:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices!
+2022-10-09 21:23:19 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.16 on Jessie-Dell with PID 20188 (C:\Users\DELL\Dropbox\Java-Backend\Projects\Microservice\Event-Driven-Microservices-Kafka-Elasticsearch\twitter-to-kafka-service\target\classes started by DELL in C:\Users\DELL\Dropbox\Java-Backend\Projects\Microservice\Event-Driven-Microservices-Kafka-Elasticsearch)
+2022-10-09 21:23:19 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-09 21:23:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.699 seconds (JVM running for 1.651)
+2022-10-09 21:23:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-10-09 21:23:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-10-09 21:23:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices!
+2022-10-09 21:23:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Streaming service starts...
+2022-10-09 21:23:20 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-10-09 21:23:20 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Elasticsearch]
+2022-10-09 21:23:20 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-10-09 21:23:20 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-10-09 21:23:20 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @A100888 Nasi Jagung Bu Wakini
+Google Map code: 4GRX+2Q Giripurno, Batu City, East Java https://t.co/F7m0u8FIrt
+2022-10-09 21:23:21 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text #مشاريع_تخرج  #حاسب #تطبيقات #اندرويد #ابلكيشن  #جافا #ماتلاب  #php #Java #HTML #asp #adroid #kku_cs #Kku #KSU_IT #kfu #Tu #KSU #kau 
+#ويكا #داتا_ميننق 
+#جامعة_طيبة #جامعة_تبوك #جامعة_الطائف #جامعة_ام_القرى 
+#جامعة_الملك_خالد #جامعة_المجمعة  #جامعة_الاميرة_نورة
+2022-10-09 21:23:27 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @honwari822: おはようございます^^
+10/10、22時からの配信予定です☆
+
+【minecraft】
+脱出マップ『人形の住む家からの脱出』に挑戦☆
+ぜひ、ご視聴・コメント・高評価よろしくお願いします^^
+
+https://t.co/AGOaLmCDqr
+
+#…
+2022-10-09 21:23:37 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text اطلب مشروعك
+ #مشروع_تخرج2 #العملي
+#مشروع1 #النظري
+#مشاريع_تخرج
+#تطبيقات
+#اندرويد
+#ماتلاب 
+#بايثون
+#android
+#php
+#java
+#asp
+#فلاتر
+#ذكاء_اصطناعي
+#معالجة_صور
+#جامعة_طيبة
+#جامعة_بيشة
+#جامعة_تبوك 
+#جامعة_ام_القرى
+#جامعه_الملك_خالد
+تواصل ع الخاص
+2022-10-09 21:23:37 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @fastworkers6: How to use a fork to help hanging pictures much easier https://t.co/EV2vEFwzA8
+
+@configuroweb
+
+#configuroweb #codigo #python #programando #programadores #webdev #webdevelopment #php #java
+2022-10-09 21:23:37 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ( 三)俺この世界じゃき残これないのか！？
+2022-10-09 21:23:53 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @javarevisited: 5 Top Courses to Learn Microservices
+1. Architecture  - https://t.co/hDOVSPEMEN
+2. Master Microservices   -  https://t.c…
+2022-10-09 21:24:04 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @TomScibelli: The New York Giants are a good football team and it’s almost entirely because of coaching. Daboll, Kafka, and Wink are out…
+2022-10-09 21:24:07 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ❗ランキング:48位❗(ナイト＆週末セール)
+
+「P615 55型4K対応液晶テレビ 4KBS/ CSチューナー内蔵/ Android TV搭載/ YouTube/  ネットフリックス/  Wi-Fi内蔵/ クロームキ...」
+メーカ:TCL
+
+価格:¥62,820✨
+🔥売り切れ間近🔥(11:24)
+
+https://t.co/FCGg7zVa9E
+2022-10-09 21:24:07 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ❗ランキング：11位❗(マザーボード)
+
+「■マザーボード　Intel　B560搭載　MicroATX B560M-PLUS TUFシリーズ TUF/ G/ B560M-PLUS」
+メーカ:ASUS
+
+価格:¥18,480✨
+🔥売り切れ間近🔥(11:24)
+
+https://t.co/qogCNIKk1b
+2022-10-09 21:24:20 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text マイクラの一番の謎はJava版と統合版で訳語が違うこと 同じ会社で作ってるんだから訳語も統一してくれ!
+2022-10-09 21:24:26 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @configuroweb: RT @fastworkers6: How to use a fork to help hanging pictures much easier https://t.co/EV2vEFwzA8
+
+@configuroweb
+
+#configu…
+2022-10-09 21:24:26 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @HwExpert: Get online class homework, assignment and exam expert help with 
+Economics 
+Finance 
+#economics, 
+#essaypay
+#essaydue
+#javasc…
+2022-10-09 21:24:26 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @IT_project2: لدينا فريق من المهندسين اصحاب خبرة في مجالات #البرمجة  المختلفة
+1- #Python
+2- #Java #JavaScript 
+3- #Csharp 
+4- #Laravel…
+2022-10-09 21:24:26 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @configuroweb: Exercises that will be good for your sciatic pain..🔥🔥 https://t.co/m5NYZbQ8Ph
+
+@configuroweb
+
+#configuroweb #codigo #pyth…
+2022-10-09 21:24:26 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @qibe_manggarai: No. 2820 programming meme #programmingjoke #code #coding #javascript #python #datascience #programming #programmer #jok…
+2022-10-09 21:24:28 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @IT_project2: لدينا فريق من المهندسين اصحاب خبرة في مجالات #البرمجة  المختلفة
+1- #Python
+2- #Java #JavaScript 
+3- #Csharp 
+4- #Laravel…
+2022-10-09 21:24:29 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @HwExpert: Get online class homework, assignment and exam expert help with 
+Economics 
+Finance 
+#economics, 
+#essaypay
+#essaydue
+#javasc…
+2022-10-09 21:24:34 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream!

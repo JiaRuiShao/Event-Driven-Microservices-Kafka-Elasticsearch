@@ -1,0 +1,42 @@
+2022-10-09 21:57:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.16 on Jessie-Dell with PID 31212 (C:\Users\DELL\Dropbox\Java-Backend\Projects\Microservice\Event-Driven-Microservices-Kafka-Elasticsearch\twitter-to-kafka-service\target\classes started by DELL in C:\Users\DELL\Dropbox\Java-Backend\Projects\Microservice\Event-Driven-Microservices-Kafka-Elasticsearch)
+2022-10-09 21:57:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-09 21:57:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.678 seconds (JVM running for 1.704)
+2022-10-09 21:57:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-10-09 21:57:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-10-09 21:57:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices!
+2022-10-09 21:57:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Streaming service starts...
+2022-10-09 21:57:47 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-10-09 21:57:47 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Elasticsearch]
+2022-10-09 21:57:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-10-09 21:57:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-10-09 21:57:48 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @MentorWebDev: Frontend: HTML, CSS, JavaScript, (React || Vue || Svelte || Angular)
+
+Backend: Python, NodeJs, PHP, Java
+
+Database: Mysql…
+2022-10-09 21:57:49 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text javaでゲームを作ろう！#java
+2022-10-09 21:57:53 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @kakeruSHI_ch: マジで壊すなああああああああああああああああああああああああああああああああああああああああああああああああああああﾌﾞr
+19:45公開
+
+【Minecraft】レッドストーン回路が日常を支配していくサバイバル Part50.1 Java…
+2022-10-09 21:57:56 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text MDMA pills 💊💊
+#mdma #mdmapills #trip #trippy #psychedelics #Psychonauts #psychologist #psychopath #psychedelicsuk #psychedelicart #molly #mycology #mycologist #NFT #javascript #java #Liverpool https://t.co/W1XWSnOhiw
+2022-10-09 21:58:01 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @gp_pulipaka: Top 100 Books I Should Read on RPubs. #BigData #Analytics #DataScience #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Ja…
+2022-10-09 21:58:07 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text CursorTek is #selling #bulk #data of #plumbers of #Australia #AUS #AU
+
+Also selling: #Realtor #lawyers #dentists #hotels #restaurants #HVAC #Roofing #flooring #photographers #yoga #trainers and 3k plus #categories
+
+#python #php #java #yelp #tripadvisor
+
+https://t.co/xO23syGvP8 https://t.co/dcWy3ls57w
+2022-10-09 21:58:08 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @drpenking: Skills you should learn if you are planning Japa
+
+Data Science 
+Data Engineering 
+Java
+DevOps Engineering
+Software Engineeri…
+2022-10-09 21:58:15 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Weyore_ @DollarFortnite Hand movements feel off compared to Java, there's an awful filter on single player worlds.
+
+I think that wraps it up on my end, and I tried my best to stay away from the average "marketplace bad" argument, even though it is.
+2022-10-09 21:58:22 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
