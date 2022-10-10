@@ -2,25 +2,37 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <!--  sub-modules  -->
+    <modules>
+        <module>twitter-to-kafka-service</module>
+    </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.7.4</version>
         <relativePath/>
     </parent>
-    <groupId>demo.microservices</groupId>
-    <artifactId>microservices-demo</artifactId>
+
+    <!-- this pom.xml information, can combined with sub-modules' config by setting this pom.xml as their parent -->
+    <groupId>demo.microservices</groupId> <!-- specify the id of the project group -->
+    <artifactId>microservices-demo</artifactId> <!-- specify the id of the project in project group -->
     <version>0.0.1-SNAPSHOT</version>
     <name>Event-Driven-Microservices-Kafka-Elasticsearch</name>
     <description>Event-Driven-Microservices-Kafka-Elasticsearch</description>
     <!--  use pom instead of jar  -->
     <packaging>pom</packaging>
+
+    <!--  global properties  -->
     <properties>
         <java.version>11</java.version>
         <!-- sub-modules can specify the dependencies without versions -->
         <spring-boot.version>2.7.4</spring-boot.version>
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
+        <twitter4j.version>4.0.7</twitter4j.version>
+        <lombok.version>1.18.16</lombok.version>
     </properties>
+
     <!--  use dependencyManagement to define all dependencies in this base pom.xml, without really downloading  -->
     <dependencyManagement>
         <dependencies>
@@ -35,6 +47,13 @@
                 <artifactId>spring-boot-starter-test</artifactId>
                 <version>${spring-boot.version}</version>
                 <scope>test</scope>
+                <exclusions>
+                    <exclusion>
+                        <!-- disable junit3/4 -->
+                        <groupId>org.junit.vintage</groupId>
+                        <artifactId>junit-vintage-engine</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -50,11 +69,12 @@
                 </configuration>
             </plugin>
         </plugins>
+
         <pluginManagement>
             <plugins>
                 <plugin>
-                    <!-- this plugin helps to build the jar, run springboot application, generate build info,
-                    create docker images -->
+                    <!-- this plugin helps to build the runnable jar, run springboot application,
+                    generate build info, and create docker images -->
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
                     <version>${spring-boot.version}</version>
