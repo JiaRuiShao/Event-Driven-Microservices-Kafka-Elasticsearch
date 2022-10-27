@@ -2,6 +2,7 @@ package com.microservices.demo.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 import java.util.List;
 
@@ -14,7 +15,7 @@ import java.util.List;
  * Reference: https://www.baeldung.com/configuration-properties-in-spring-boot
  */
 @Data
-// @Configuration
+@Configuration
 @ConfigurationProperties(prefix = "twitter-to-kafka-service") // this prefix name has to match with the property name in application.yml
 public class TwitterToKafkaServiceConfigData {
 	private List<String> twitterKeywords;
